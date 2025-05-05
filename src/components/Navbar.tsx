@@ -62,7 +62,7 @@ const Navbar = () => {
               "border-2 rounded-sm transition-all",
               isScrolled 
                 ? "border-navy-500 text-navy-500 hover:bg-navy-500 hover:text-white"
-                : "border-white text-white hover:bg-white hover:text-navy-500"
+                : "border-white text-white hover:bg-white/20 bg-white/10"
             )}
           >
             (301) 555-0123
@@ -124,3 +124,4 @@ const NavLink = ({
 );
 
 export default Navbar;
+
