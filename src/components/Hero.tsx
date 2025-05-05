@@ -28,8 +28,13 @@ const Hero = () => {
             <Button size="lg" className="bg-gold-400 hover:bg-gold-500 text-navy-900 rounded-sm h-14 text-lg px-8">
               View Properties
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-navy-900 rounded-sm h-14 text-lg px-8">
-              Our Services <ArrowRight className="ml-2 h-5 w-5" />
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-2 border-white text-white hover:bg-white/20 rounded-sm h-14 text-lg px-8 flex items-center"
+            >
+              <span className="mr-2">Our Services</span> 
+              <ArrowRight className="h-5 w-5" />
             </Button>
           </div>
         </div>
